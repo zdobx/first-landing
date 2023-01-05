@@ -1,0 +1,50 @@
+html {
+    background-color: whitesmoke;
+}
+
+#header {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+
+}
+
+#awesome {
+    color:#E5E7EB;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#secondary {
+    color: #F9FAF8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+
+} 
+    
+
+
+.secondcontainer {
+    background-color: #1F2937;
+
+}
+
+.thirdcontainer {
+    background-color: #E5E7EB;
+}
+
+.fourthcontainer {
+    background-color: lightblue;
+}
+
+.fifthcontainer {
+    background-color: violet;
+}
+
+.footer {background-color: #1F2937;
+}
