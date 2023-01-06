@@ -7,26 +7,37 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 
+
+    
 }
 
 .headerlogo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #f9faf8;
     font-size: 24px;
+    background-color: blue;
+    margin: 5px;
+    flex-basis: 700px;
 }
 
 a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #e5e7eb;
     text-decoration: none;
+    background-color: blue;
+    margin: 5px;
+    flex-basis: 150px;
+   
+    
 }
 
 .secondary {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #e5e7eb;
     text-decoration: none;
+    background-color: blue;
+    margin: 5px;
 }
 
 .awesome {
@@ -34,9 +45,13 @@ a {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    background-color: blue;
+    margin: 5px;
+    
 }
 
 .god {
     width: 30%;
     height: auto;
+    margin: 5px;
 }
