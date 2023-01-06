@@ -7,18 +7,24 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
-
-    
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 20px;
+    flex-basis: 60%;
+
+}
 .headerlogo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #f9faf8;
     font-size: 24px;
     background-color: blue;
     margin: 5px;
-    flex-basis: 700px;
+    flex-grow: 4;
 }
 
 a {
@@ -27,9 +33,10 @@ a {
     text-decoration: none;
     background-color: blue;
     margin: 5px;
-    flex-basis: 150px;
-   
-    
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 50px;
 }
 
 .secondary {
@@ -38,6 +45,7 @@ a {
     text-decoration: none;
     background-color: blue;
     margin: 5px;
+    width: 50%;
 }
 
 .awesome {
@@ -47,11 +55,19 @@ a {
     font-weight: 900;
     background-color: blue;
     margin: 5px;
-    
+    width: 60%;  
 }
 
 .god {
     width: 30%;
     height: auto;
-    margin: 5px;
+    margin: 20px;
+    order: 4;
+    align-self: center;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    margin-left: 5px;
 }
