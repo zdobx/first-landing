@@ -2,49 +2,41 @@ html {
     background-color: whitesmoke;
 }
 
-#header {
-    color: #F9FAF8;
+.header-container {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+.headerlogo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f9faf8;
     font-size: 24px;
 }
 
-.header {
-    background-color: #1F2937;
-    display: flex;
-
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
-#awesome {
-    color:#E5E7EB;
-    font-weight: 900;
+.secondary {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.awesome {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f9faf8;
     font-size: 48px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
 }
 
-#secondary {
-    color: #F9FAF8;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
-
-} 
-    
-
-
-.secondcontainer {
-    background-color: #1F2937;
-
-}
-
-.thirdcontainer {
-    background-color: #E5E7EB;
-}
-
-.fourthcontainer {
-    background-color: lightblue;
-}
-
-.fifthcontainer {
-    background-color: violet;
-}
-
-.footer {background-color: #1F2937;
+.god {
+    width: 30%;
+    height: auto;
 }
