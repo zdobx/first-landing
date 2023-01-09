@@ -44,8 +44,10 @@ a {
     color: #e5e7eb;
     text-decoration: none;
     background-color: blue;
-    margin: 5px;
+    margin: 40px;
     width: 50%;
+    height: 0;
+    
 }
 
 .awesome {
@@ -54,7 +56,7 @@ a {
     font-size: 48px;
     font-weight: 900;
     background-color: blue;
-    margin: 5px;
+    margin: 40px;
     width: 60%;  
 }
 
@@ -62,12 +64,62 @@ a {
     width: 30%;
     height: auto;
     margin: 20px;
-    order: 4;
-    align-self: center;
+    order: 1;
 }
 
 .button {
     background-color: blue;
     border: none;
-    margin-left: 5px;
+    margin-left: 40px;
+    align-self: flex-start;
+    margin-top: 15px;
 }
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.second-random {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;   
+}
+
+
+.photos {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-top: 40px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.caption {
+    display: block;
+    margin-top: 10px;
+
+}
+
+.third-container {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
