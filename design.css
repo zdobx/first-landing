@@ -22,7 +22,6 @@ html {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #f9faf8;
     font-size: 24px;
-    background-color: blue;
     margin: 5px;
     flex-grow: 4;
 }
@@ -31,7 +30,6 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #e5e7eb;
     text-decoration: none;
-    background-color: blue;
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -43,7 +41,6 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #e5e7eb;
     text-decoration: none;
-    background-color: blue;
     margin: 40px;
     width: 50%;
     height: 0;
@@ -55,7 +52,6 @@ a {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
-    background-color: blue;
     margin: 40px;
     width: 60%;  
 }
@@ -68,7 +64,6 @@ a {
 }
 
 .button {
-    background-color: blue;
     border: none;
     margin-left: 40px;
     align-self: flex-start;
@@ -123,3 +118,48 @@ img {
     text-align: center;
 }
 
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.bottom-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #3882F6;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.bottom-header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f9faf8;
+    font-size: 24px;
+    align-self: center;
+    width: 50%;
+    margin-top: 5%;
+    
+}
+.second-button {
+    align-self: baseline;
+    margin-left: 10%;
+}
+
+.footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f9faf8;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
